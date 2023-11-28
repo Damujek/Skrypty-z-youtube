@@ -1,0 +1,51 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace KOKKA
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string mokka = (textBox1.Text);
+            switch(mokka)
+            {
+                case ("janusz"):
+                    label2.Text = "Kapusta , kapusta a ty jesteś mangusta!";
+                    break;
+                default:
+                    label2.Text = $"Jesteś głupi czy głupi ";
+                    break;
+                case ("andrzej"):
+                    label2.Text = "Podatki tylko podnosisz!";
+                    break;
+                case ("bebok"):
+                    label2.Text = "beboknęło cię?";
+                    break;
+
+
+
+            }
+
+
+
+
+        }
+
+
+        }
+    }
+
+
